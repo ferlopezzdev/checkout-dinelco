@@ -2,6 +2,7 @@ import React from 'react';
 import { useController, Control } from 'react-hook-form';
 import { InputMask } from './InputMask';
 
+// Mascara tarjeta de crédito/débito
 const handleNumberChange = (value: string) => {
   const unmask = (value: string) => value.replace(/[^\d]/g, '');
   const mask = (value: string, limit: number, separator: string): string => {

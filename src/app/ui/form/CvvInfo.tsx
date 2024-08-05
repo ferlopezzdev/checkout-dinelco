@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/hover-card";
 import BackgroundImage from "../BackgroundImage";
 
-function CvvHelp() {
+function CvvInfo() {
   return (
     <HoverCard>
       <HoverCardTrigger className="cursor-default ">
@@ -29,5 +29,4 @@ function CvvHelp() {
   );
 }
 
-export default CvvHelp;
-HoverCard
+export default CvvInfo;
